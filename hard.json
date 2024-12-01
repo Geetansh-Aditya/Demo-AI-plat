@@ -1,0 +1,26 @@
+{
+  "content": "Write a Python function `sum_of_two_numbers(a, b)` that takes two integers, `a` and `b`, as input and returns their sum.",
+  "topic": "Basic Arithmetic",
+  "test_cases": [
+    {
+      "input": {"a": 3, "b": 5},
+      "expected_output": 8
+    },
+    {
+      "input": {"a": -10, "b": 15},
+      "expected_output": 5
+    },
+    {
+      "input": {"a": 0, "b": 0},
+      "expected_output": 0
+    },
+    {
+      "input": {"a": 123, "b": 456},
+      "expected_output": 579
+    },
+    {
+      "input": {"a": -100, "b": -200},
+      "expected_output": -300
+    }
+  ]
+}

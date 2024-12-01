@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LeetCode Clone</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs/loader.js"></script>
+    <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="problem-section">
+            <div class="problem-header">
+                <div class="title-section">
+                    <span class="problem-number" id="problem-number">1.</span>
+                    <span class="problem-title" id="problem-title">Loading...</span>
+                    <span class="difficulty Medium" id="problem-difficulty">Medium</span>
+                </div>
+                <div class="stats-section">
+                    <span id="problem-accepted">Accepted: --</span>
+                    <span id="problem-submissions">Submissions: --</span>
+                </div>
+            </div>
+            <div class="problem-content">
+                <p id="problem-description">Loading problem description...</p>
+
+                <div class="example-section" id="example-section">
+                    <!-- Examples will be dynamically inserted here -->
+                </div>
+                <textarea id="testCases" rows="10" cols="50" placeholder="Edit or review test cases here"></textarea>
+            </div>
+        </div>
+        <div class="coding-section">
+            <div class="toolbar">
+                <select class="language-select">
+                    <option value="python">Python</option>
+                </select>
+                <button class="button run-button" onclick="runCode()">Run</button>
+                <button class="button submit-button" onclick="submitCode()">Submit</button>
+            </div>
+            <div class="editor-container">
+                <div id="monaco-editor"></div>
+                <div class="terminal-section">
+                    <div class="terminal-header">
+                        <div class="terminal-tabs">
+                            <div class="terminal-tab active">Console</div>
+                            <div class="terminal-tab">Test Cases</div>
+                            <div class="terminal-tab">Debug</div>
+                        </div>
+                    </div>
+                    <div class="terminal-content" id="terminal-content">
+                        <div class="output-line">// Console output will appear here</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
