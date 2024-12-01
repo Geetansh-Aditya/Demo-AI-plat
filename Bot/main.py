@@ -36,7 +36,7 @@ app.add_middleware(
 )
 
 # Initialize the Groq model
-llm = ChatGroq(model="llama-3.1-70b-versatile", api_key="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")
+llm = ChatGroq(model="llama-3.1-70b-versatile", api_key="Your API KEY")
 
 # Define prompts
 prompts = {
